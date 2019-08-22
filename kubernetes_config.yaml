@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bootcamp1
+  labels:
+    app: bootcamp1
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: bootcamp1
+  template:
+    metadata:
+      labels:
+        app: bootcamp1
+    spec:
+      containers:
+      - name: bootcamp1
+        image: gcr.io/roy-linuxtest/devops-bootcamp:v2
+        ports:
+        - containerPort: 8080
+
