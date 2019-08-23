@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: bootcamp1
-        image: gcr.io/roy-linuxtest/devops-bootcamp:v2
+        image: gcr.io/roy-linuxtest/devops-bootcamp:v0.1
         ports:
         - containerPort: 8080
 
