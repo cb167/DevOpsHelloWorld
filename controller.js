@@ -1,1 +1,1 @@
-exports.hello=function(){return "Hello World 2.0"}
+exports.hello=function(){return "Hello World 3.0"}
